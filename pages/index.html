@@ -3,11 +3,31 @@ layout   : default
 permalink: /
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+title: Aju Paraplu
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
+<div class="col-12">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-1">{{ page.title }}</h1>
+        </div>
+    </div>
 </div>
-<div class="container">
+
+<div class="col-12">
+    <p>Bent u van plan om een dagje de stad te verkennen, maar het regent? 
+        Reserveer dan nu een paraplu! 
+        U kunt hem op verschillende punten door heel oost-Vaanderen ophalen en genieten van de citytrip ondanks dat het met bakken uit de lucht komt.
+    </p>
+</div>
+
+<div class="col-12">
+    <img src="{{ site.baseurl }}/img/paraplu.jpg" class="img-fluid" alt="paraplu">
+</div>
+
+<div class="col-12">
+    <a href="reserveer.html" role="button" class="btn btn-dark btn-block btn-lg">RESERVEER</a>
+</div>
+
+<!--<div class="container">
     <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
-</div>
+</div>-->
