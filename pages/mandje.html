@@ -16,7 +16,7 @@ title: Winkelmandje
         <div class="card-body">
             <h4 class="card-title">1 Paraplu</h4>
             <p class="card-text">25 januari <br> 1 dag</p>
-            <a href="#" class="btn btn-info">Verwijder</a>
+            <a href="#" class="btn btn-info" onclick="verwijder(event, this)">Verwijder</a>
         </div>
     </div>
 </div>
@@ -27,7 +27,7 @@ title: Winkelmandje
         <div class="card-body">
             <h4 class="card-title">3 Paraplu's</h4>
             <p class="card-text">20 april <br> 1 weekend</p>
-            <a href="#" class="btn btn-info">Verwijder</a>
+            <a href="#" class="btn btn-info" onclick="verwijder(event, this)">Verwijder</a>
         </div>
     </div>
 </div>
@@ -35,3 +35,10 @@ title: Winkelmandje
 <div class="col-12">
     <a href="bedankt.html" role="button" class="btn btn-light btn-block btn-lg">RESERVEER</a>
 </div>
+
+<script>
+    function verwijder(event, self) {
+        event.preventDefault();
+        $(self).parents('.card').hide();
+    }
+</script>
