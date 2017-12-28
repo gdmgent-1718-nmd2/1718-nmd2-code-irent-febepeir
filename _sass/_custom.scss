@@ -1,0 +1,99 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    background-color: #1a8994;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-size: 36pt;
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+a {
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-size: 16pt;
+
+}
+
+.form-group {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 20px;
+}
+
+.last {
+    margin-bottom: 55px;
+}
+
+.btn-light {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-info {
+    background-color: #1a8994;
+    border-color: #1a8994;
+    border-radius: 50px;
+}
+
+.right {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.fa {
+    padding-right: 10px;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+.card-text {
+    color: black;
+    font-family: "Lato", sans-serif;
+}

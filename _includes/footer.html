@@ -1,5 +1,20 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
+<nav class="navbar navbar-light bg-light">
 {%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a class="nav-link active footer" href="index.html">Home</a>
+                <a class="nav-link active footer" href="reserveer.html">Reserveer</a>
+                <a class="nav-link active footer" href="mandje.html">Winkelmandje</a>
+                <a class="nav-link active footer" href="team.html">Over ons</a>
+                <a class="nav-link active footer" href="contact.html">Contact</a>
+            </div>
+            <div class="col-12">
+                <a href="https://www.snapchat.com/l/nl-nl/"><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.whatsapp.com/?l=nl"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
 {%- endif %}
 </nav>
