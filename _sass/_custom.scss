@@ -24,7 +24,13 @@ h3 {
     font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
     color: white;
-    text-align: right;
+}
+
+h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: #1a8994;
+    margin-top: 20px;
 }
 
 p {
@@ -75,7 +81,6 @@ label {
 
 .right {
     text-align: right;
-    margin-top: 35px;
 }
 
 .fa {
@@ -96,4 +101,13 @@ label {
 .card-text {
     color: black;
     font-family: "Lato", sans-serif;
+}
+
+.footer {
+    color: black;
+}
+
+.white {
+    color: white;
+    margin-top: 50px;
 }
